@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<gaphor xmlns="https://gaphor.org/model" xmlns:Core="https://gaphor.org/modelinglanguage/Core" xmlns:UML="https://gaphor.org/modelinglanguage/UML" version="4" gaphor-version="3.2.0">
+<gaphor xmlns="https://gaphor.org/model" xmlns:Core="https://gaphor.org/modelinglanguage/Core" xmlns:UML="https://gaphor.org/modelinglanguage/UML" version="4" gaphor-version="3.3.0">
 <model>
 <Core:StyleSheet id="58d6989a-66f8-11ec-b4c8-0456e5e540ed">
 <styleSheet>
@@ -457,9 +457,16 @@ existing classes or even new classes with specific responsibilities.</val>
 <name>
 <val>GradeBook</val>
 </name>
+<ownedAttribute>
+<reflist>
+<ref refid="c67e0a7d-37d5-11f1-af2d-2708a5a45eb4"/>
+</reflist>
+</ownedAttribute>
 <ownedOperation>
 <reflist>
 <ref refid="8ef0bd10-34c2-11f1-958d-63fdf7e8daa0"/>
+<ref refid="3776c944-37d6-11f1-bc66-2708a5a45eb4"/>
+<ref refid="7266d9ab-37d6-11f1-a74f-2708a5a45eb4"/>
 </reflist>
 </ownedOperation>
 <owningPackage>
@@ -476,16 +483,16 @@ existing classes or even new classes with specific responsibilities.</val>
 </UML:Class>
 <UML:ClassItem id="4c0efab9-34c1-11f1-8554-63fdf7e8daa0">
 <matrix>
-<val>(1.0, 0.0, 0.0, 1.0, 101.68358612060547, 173.85546875)</val>
+<val>(1.0, 0.0, 0.0, 1.0, 100.79686737060547, 173.85546875)</val>
 </matrix>
 <top-left>
 <val>(0.0, 0.0)</val>
 </top-left>
 <width>
-<val>146.0</val>
+<val>239.0</val>
 </width>
 <height>
-<val>74.0</val>
+<val>125.0</val>
 </height>
 <diagram>
 <ref refid="4838bef9-34c1-11f1-bb09-63fdf7e8daa0"/>
@@ -501,6 +508,75 @@ existing classes or even new classes with specific responsibilities.</val>
 <name>
 <val>displayMessage</val>
 </name>
+<ownedParameter>
+<reflist>
+<ref refid="0fb59168-3582-11f1-a918-81b6960d1045"/>
+</reflist>
+</ownedParameter>
 </UML:Operation>
+<UML:Parameter id="0fb59168-3582-11f1-a918-81b6960d1045">
+<name>
+<val>courseName</val>
+</name>
+<ownerFormalParam>
+<ref refid="8ef0bd10-34c2-11f1-958d-63fdf7e8daa0"/>
+</ownerFormalParam>
+</UML:Parameter>
+<UML:Property id="c67e0a7d-37d5-11f1-af2d-2708a5a45eb4">
+<name>
+<val>- courseName(name : String)</val>
+</name>
+<structuredClassifier>
+<ref refid="4c0e714f-34c1-11f1-bd63-63fdf7e8daa0"/>
+</structuredClassifier>
+</UML:Property>
+<UML:Operation id="3776c944-37d6-11f1-bc66-2708a5a45eb4">
+<class_>
+<ref refid="4c0e714f-34c1-11f1-bd63-63fdf7e8daa0"/>
+</class_>
+<name>
+<val>setCourseName</val>
+</name>
+<ownedParameter>
+<reflist>
+<ref refid="377a2d43-37d6-11f1-896f-2708a5a45eb4"/>
+</reflist>
+</ownedParameter>
+</UML:Operation>
+<UML:Parameter id="377a2d43-37d6-11f1-896f-2708a5a45eb4">
+<name>
+<val>name</val>
+</name>
+<ownerFormalParam>
+<ref refid="3776c944-37d6-11f1-bc66-2708a5a45eb4"/>
+</ownerFormalParam>
+<typeValue>
+<val>String</val>
+</typeValue>
+</UML:Parameter>
+<UML:Operation id="7266d9ab-37d6-11f1-a74f-2708a5a45eb4">
+<class_>
+<ref refid="4c0e714f-34c1-11f1-bd63-63fdf7e8daa0"/>
+</class_>
+<name>
+<val>getCourseName</val>
+</name>
+<ownedParameter>
+<reflist>
+<ref refid="726a27c9-37d6-11f1-ba20-2708a5a45eb4"/>
+</reflist>
+</ownedParameter>
+</UML:Operation>
+<UML:Parameter id="726a27c9-37d6-11f1-ba20-2708a5a45eb4">
+<direction>
+<val>return</val>
+</direction>
+<ownerFormalParam>
+<ref refid="7266d9ab-37d6-11f1-a74f-2708a5a45eb4"/>
+</ownerFormalParam>
+<typeValue>
+<val>String</val>
+</typeValue>
+</UML:Parameter>
 </model>
 </gaphor>
