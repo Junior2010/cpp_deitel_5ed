@@ -3,3 +3,5 @@
 *.s
 *.pch
 *.o
+cpp_deitel_5ed.code-workspace
+/.idea/*
