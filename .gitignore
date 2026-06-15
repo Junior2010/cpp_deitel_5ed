@@ -3,5 +3,9 @@
 *.s
 *.pch
 *.o
+*.out
 cpp_deitel_5ed.code-workspace
 /.idea/*
+.vscode/launch.json
+.vscode/settings.json
+.vscode/tasks.json
