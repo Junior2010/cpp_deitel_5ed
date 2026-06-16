@@ -12,7 +12,11 @@ int main()
     // utiliza lista inicializadora para inicializar o array n
     int n[10] = { 32, 27, 64, 18, 95, 14, 90, 70, 60, 37 };
 
+<<<<<<< HEAD
     cout << 'Element' << setw( 13 ) << "Value" << endl;
+=======
+    cout << "Element" << setw( 13 ) << "Value" << endl;
+>>>>>>> 6ca6486 (fig07_04.cpp)
 
     // gera saída do valor de cada elemento do array
     for ( int i = 0; i < 10; i++ )
