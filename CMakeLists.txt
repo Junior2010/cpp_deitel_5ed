@@ -10,5 +10,5 @@ add_compile_options(-Wall -Wextra -pedantic-errors)
 file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/resources/ed5.txt
         DESTINATION ${CMAKE_CURRENT_BINARY_DIR}/resources)
 
-add_executable(teste testes/teste.cpp)
-add_executable(programa 08/fig08_07.cpp)
+#add_executable(teste testes/teste.cpp)
+add_executable(programa 08/fig08_10.cpp)
