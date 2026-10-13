@@ -12,7 +12,9 @@ file(COPY
 )
 
 add_executable(programa
-        08/fig08_20/fig08_21.cpp
+        09/Time.h
+        09/Time.cpp
+        09/fig09_03.cpp
 )
 
 if(MSVC)
