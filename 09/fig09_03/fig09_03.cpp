@@ -5,7 +5,7 @@
 using std::cout;
 using std::endl;
 
-#include "Time.h" // inclui a definição da classe Time a partir de Time.h
+#include "Time.h"
 
 int main()
 {

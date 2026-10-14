@@ -7,7 +7,7 @@ using std::cout;
 using std::setfill;
 using std::setw;
 
-#include "Time.h" // inclui a definição da classe Time a partir de Time.h
+#include "Time.h"
 
 // O construtor de Time inicializa cada membro de dados como zero.
 // Assegura que todos os objetos Time iniciem em um estado consistente.
